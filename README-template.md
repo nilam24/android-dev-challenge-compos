@@ -1,4 +1,4 @@
-# Put title of your app here
+# Bloom App
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
@@ -16,6 +16,21 @@
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
+![loginLightview](https://user-images.githubusercontent.com/25586486/111542740-1f9b9200-8798-11eb-93da-4899be109ad9.jpg)
+
+
+![logindarkview](https://user-images.githubusercontent.com/25586486/111542835-3f32ba80-8798-11eb-9fb7-3f42282319b2.jpg)
+
+
+![HomeLightview](https://user-images.githubusercontent.com/25586486/111542910-55d91180-8798-11eb-95c9-3830cdede81c.jpg)
+
+![Homedarkview](https://user-images.githubusercontent.com/25586486/111542974-6b4e3b80-8798-11eb-885f-823890c4e51e.jpg)
+
+
+
+
+
+
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 
 ## License
