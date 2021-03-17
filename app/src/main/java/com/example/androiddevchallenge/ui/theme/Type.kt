@@ -17,27 +17,55 @@ package com.example.androiddevchallenge.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 // Set of Material typography styles to start with
 val typography = Typography(
+    h1 = TextStyle(
+        fontFamily = FontFamilyData().appFontFamily,
+        fontWeight = FontWeight.W700,
+        fontSize = 18.sp,
+        letterSpacing = 0.sp
+    ),
+    h2 = TextStyle(
+        fontFamily = FontFamilyData().appFontFamily,
+        fontWeight = FontWeight.W600,
+        fontSize = 14.sp,
+        letterSpacing = .15.sp
+    ),
+    subtitle1 = TextStyle(
+        fontFamily = FontFamilyData().appFontFamily,
+        fontWeight = FontWeight.W300,
+        fontSize = 16.sp,
+        letterSpacing = 0.sp
+    ),
+
     body1 = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
-    )
-        /* Other default text styles to override
+        fontFamily = FontFamilyData().appFontFamily,
+        fontSize = 14.sp,
+        letterSpacing = 0.sp,
+        fontWeight = FontWeight.W300
+    ),
+    body2 = TextStyle(
+        fontFamily = FontFamilyData().appFontFamily,
+        fontSize = 12.sp,
+        fontWeight = FontWeight.W300,
+        letterSpacing = 0.sp
+    ),
+
+    // Other default text styles to override
     button = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.W500,
-        fontSize = 14.sp
+        fontFamily = FontFamilyData().appFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.W600,
+        letterSpacing = 1.sp
     ),
     caption = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 12.sp
+        fontFamily = FontFamilyData().appFontFamily,
+        fontSize = 12.sp,
+        letterSpacing = 0.sp,
+        fontWeight = FontWeight.W600
     )
-    */
+
 )

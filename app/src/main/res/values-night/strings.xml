@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="policyLine1">By clicking below, you agree to our Terms of Use and consent\n to our Privacy Policy</string>
+    <string name="error">Email and password field should not empty\n and password should be 8+characters long</string>
+
+</resources>

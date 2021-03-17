@@ -78,4 +78,11 @@ dependencies {
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
+    //navigation dependency
+    implementation 'androidx.navigation:navigation-compose:1.0.0-alpha09'
+    //constraintlayout dependency
+    implementation 'androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha04'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
 }
